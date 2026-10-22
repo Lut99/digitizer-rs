@@ -1,0 +1,12 @@
+[package]
+name = "digitizer"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+clap = { version = "4.6.0", features = ["derive"] }
+error-trace = "4.0.0"
+humanlog = { git = "https://github.com/Lut99/humanlog-rs", tag = "v0.2.0" }
+image = "0.25.0"
+log = "0.4.0"
